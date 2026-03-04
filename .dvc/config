@@ -1,2 +1,7 @@
+[core]
+    autostage = true
+    remote = dagshub
 ['remote "origin"']
+    url = https://dagshub.com/Angella986/examen-dvc.dvc
+['remote "dagshub"']
     url = https://dagshub.com/Angella986/examen-dvc.dvc

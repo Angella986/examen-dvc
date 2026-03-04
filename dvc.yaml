@@ -45,4 +45,4 @@ stages:
     - models/trained_model.pkl
     - src/models/evaluate_model.py
     outs:
-    - reports/metrics.json
+    - metrics/scores.json

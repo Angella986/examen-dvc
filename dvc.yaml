@@ -33,7 +33,8 @@ stages:
     deps:
     - data/processed/X_train_scaled.csv
     - data/processed/y_train.csv
-    - models/best_models.pkl
+    - models/best_params.pkl
+    - src/models/train_model.py
     outs:
     - models/final_model.pkl
   evaluate:
